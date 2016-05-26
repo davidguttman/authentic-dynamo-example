@@ -1,0 +1,26 @@
+{
+  "name": "authentic-dynamo-example",
+  "version": "1.0.0",
+  "description": "Example authentic server using dynamo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "supervisor -n exit -i public,client index.js"
+  },
+  "keywords": [],
+  "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "authentic-server": "^0.4.2",
+    "dynamodown": "^1.0.0",
+    "health-route": "^3.0.2",
+    "levelup": "^1.3.0",
+    "lodash": "^3.10.1",
+    "productionize": "^1.0.0",
+    "req-logger": "^1.0.0",
+    "sparkpost": "^1.2.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.9.1"
+  }
+}
